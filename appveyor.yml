@@ -10,5 +10,5 @@ build_script:
 - cmd: >-
     dotnet test ExtCore.Tests\ExtCore.Tests.fsproj
 - cmd: >-
-    dotnet pack
+    dotnet pack -v diag
 test: off
